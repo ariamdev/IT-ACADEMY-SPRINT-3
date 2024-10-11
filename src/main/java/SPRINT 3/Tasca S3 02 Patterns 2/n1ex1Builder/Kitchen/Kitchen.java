@@ -1,6 +1,7 @@
 package n1ex1Builder.Kitchen;
 
 import n1ex1Builder.Builder.*;
+import n1ex1Builder.Builder.VegetarianBuilder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,30 +21,29 @@ public class Kitchen {
                 "5. Vegetarian.");
         opt = sc.nextInt();
 
-        Pizza pizza = null;
-
         switch (opt) {
             case 1:
-                pizza = bakeCapprichosa();
+                bakeCapprichosa();
+                String pizzaName;
                 break;
             case 2:
-                pizza = bakeCarbonara();
+                bakeCarbonara();
                 break;
             case 3:
-                pizza = bakeMargherita();
+                bakeMargherita();
                 break;
             case 4:
-                pizza = bakePepperoni();
+                bakePepperoni();
                 break;
             case 5:
-                pizza = bakeVegetarian();
+                bakeVegetarian();
                 break;
             default:
                 System.out.println("Please select between the 4 pizzas.");
         }
         System.out.println("Making the pizza....\n" +
                 "Baking the pizza in the oven...\n" +
-                "Your pizza " + pizza + " is ready! \n");
+                "Your pizza is ready! \n");
     }
 
     public Size chooseSize(){
@@ -111,47 +111,48 @@ public class Kitchen {
         return extraToppings;
     }
 
-    public Pizza bakeCapprichosa(){
+    public void bakeCapprichosa(){
         CapprichosaBuilder capprichosaBuilder = new CapprichosaBuilder();
         Size size = chooseSize();
         Dough dough = chooseDough();
         List<String> extraToppings = chooseExtraToppings();
         Pizza pizza = pizzaMaster.cookingPizza(capprichosaBuilder,size,dough,extraToppings);
-        return pizza;
+        System.out.println("Order: Capprichosa pizza " + pizza);
     }
 
-    public Pizza bakeCarbonara(){
+    public void bakeCarbonara(){
         CarbonaraBuilder carbonaraBuilder = new CarbonaraBuilder();
         Size size = chooseSize();
         Dough dough = chooseDough();
         List<String> extraToppings = chooseExtraToppings();
         Pizza pizza = pizzaMaster.cookingPizza(carbonaraBuilder,size,dough,extraToppings);
-        return pizza;
+        System.out.println("Order: Carbonara pizza " + pizza);
     }
 
-    public Pizza bakeMargherita(){
-        MargheritaBuilder margheritaBuilder = new MargheritaBuilder()
+    public void bakeMargherita(){
+        MargheritaBuilder margheritaBuilder = new MargheritaBuilder();
         Size size = chooseSize();
         Dough dough = chooseDough();
         List<String> extraToppings = chooseExtraToppings();
         Pizza pizza = pizzaMaster.cookingPizza(margheritaBuilder,size,dough,extraToppings);
-        return pizza;
+        System.out.println("Order: Margherita pizza " + pizza);
     }
 
-    public Pizza bakePepperoni(){
+    public void bakePepperoni(){
         PepperoniBuilder pepperoniBuilder = new PepperoniBuilder();
         Size size = chooseSize();
         Dough dough = chooseDough();
         List<String> extraToppings = chooseExtraToppings();
         Pizza pizza = pizzaMaster.cookingPizza(pepperoniBuilder,size,dough,extraToppings);
-        return pizza;
+        System.out.println("Order: Pepperoni pizza " + pizza);
     }
 
-    public Pizza bakeVegetarian(){
+    public void bakeVegetarian(){
         VegetarianBuilder vegetarianBuilder = new VegetarianBuilder();
         Size size = chooseSize();
         Dough dough = chooseDough();
         List<String> extraToppings = chooseExtraToppings();
-        return pizzaMaster.cookingPizza(vegetarianBuilder,size,dough,extraToppings);
+        Pizza pizza = pizzaMaster.cookingPizza(vegetarianBuilder,size,dough,extraToppings);
+        System.out.println("Order: Vegetarian pizza " + pizza);
     }
 }
