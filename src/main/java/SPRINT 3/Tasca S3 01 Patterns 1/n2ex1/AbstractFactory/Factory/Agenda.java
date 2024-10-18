@@ -139,17 +139,13 @@ public class Agenda {
     }
 
     public static void contactList(){
-        try{
             if(listContacts.isEmpty()){
-                throw new AgendaIsEmptyException("Error: The Agenda is empty. Please, add contacts first.\n");
+                System.out.println("Error: The Agenda is empty. Please, add contacts first.\n");
             }else{
                 for(Contact contact : listContacts){
                     System.out.println(contact.toString());
                 }
             }
-        } catch (AgendaIsEmptyException e) {
-            System.out.println(e.getMessage());
-        }
         }
     }
 
