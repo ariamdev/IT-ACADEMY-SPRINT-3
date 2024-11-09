@@ -1,5 +1,5 @@
-[![ES](https://img.shields.io/badge/ES-red.svg?logo=googletranslate&logoColor=white)](https://github.com/ariamdev/IT-ACADEMY-SPRINT-2/blob/main/SPRINT%202/Tasca%20S2%2001%20%20Estructura%20de%20dades%20-%20MySQL/README.es.md)
-[![CAT](https://img.shields.io/badge/CAT-yellow.svg?logo=googletranslate&logoColor=white)](https://github.com/ariamdev/IT-ACADEMY-SPRINT-2/blob/main/SPRINT%202/Tasca%20S2%2001%20%20Estructura%20de%20dades%20-%20MySQL/README.cat.md)
+[![ES](https://img.shields.io/badge/ES-red.svg?logo=googletranslate&logoColor=white)](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/blob/master/src/main/java/SPRINT%203/Tasca%20S3%2001%20Patterns%201/README.es.md)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg?logo=googletranslate&logoColor=white)](
 
 **1. Patterns 1**
 =
@@ -14,7 +14,7 @@ Applying the Singelton, Abstract Factory and Command patterns.
 🌟 Level 1
 -
 
-#### 📍 [Exercise 1 - Singelton]()
+#### 📍 [Exercise 1 - Singelton](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/tree/master/src/main/java/SPRINT%203/Tasca%20S3%2001%20Patterns%201/n1ex1/Singleton)
 
 Create a class that replicates the operation of the 'Undo' command. This class will be used by the Main class, which will allow you to enter console options.
 
@@ -26,7 +26,7 @@ Create a class that replicates the operation of the 'Undo' command. This class w
 ⭐🌟 Level 2
 -
 
-#### 📍 [Exercise 2 - Abstract Factory]()
+#### 📍 [Exercise 2 - Abstract Factory](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/tree/master/src/main/java/SPRINT%203/Tasca%20S3%2001%20Patterns%201/n2ex1/AbstractFactory)
 
 Create a small manager of international address and telephone numbers.
 
@@ -38,7 +38,7 @@ Create a small manager of international address and telephone numbers.
 ⭐⭐🌟 Level 3
 -
 
-#### 📍 [Exercise 3 - Command]()
+#### 📍 [Exercise 3 - Command](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/tree/master/src/main/java/SPRINT%203/Tasca%20S3%2001%20Patterns%201/n3ex1/Command)
 
 Design a car parking with 4 vehicles: a car, a bicycle, a plane and a boat.
 
