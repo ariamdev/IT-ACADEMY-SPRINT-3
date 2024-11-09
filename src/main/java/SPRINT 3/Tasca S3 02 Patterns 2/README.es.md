@@ -1,5 +1,5 @@
-[![EN](https://img.shields.io/badge/EN-blue.svg?logo=googletranslate&logoColor=white)](#eng)
-[![CAT](https://img.shields.io/badge/CAT-yellow.svg?logo=googletranslate&logoColor=white)](#cat)
+[![EN](https://img.shields.io/badge/EN-blue.svg?logo=googletranslate&logoColor=white)](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/blob/master/src/main/java/SPRINT%203/Tasca%20S3%2002%20Patterns%202/README.md)
+[![CAT](https://img.shields.io/badge/CAT-yellow.svg?logo=googletranslate&logoColor=white)](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/blob/master/src/main/java/SPRINT%203/Tasca%20S3%2002%20Patterns%202/README.cat.md)
 
 2.Patrones 2
 =
