@@ -12,8 +12,8 @@ Design software through advanced structures, which are always established on the
 integrating your developments into collaborative platforms.
 
 + **[1. Patterns 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/blob/master/src/main/java/SPRINT%203/Tasca%20S3%2001%20Patterns%201/README.md)** Apply the Singelton, Abstract Factory and Command patterns.
-+ **[2. Patterns 2]()** Apply the Builder, Observer and Callback patterns.
-+ **[3. Developers Team]()** Project to work in a team of 3 people, learning Git Flow, applying patterns and also Database (CRUD).
++ **[2. Patterns 2](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/tree/master/src/main/java/SPRINT%203/Tasca%20S3%2002%20Patterns%202)** Apply the Builder, Observer and Callback patterns.
++ **[3. Developers Team](https://github.com/ariamdev/ITACADEMY_SCAPE_ROOM)** Project to work in a team of 3 people, learning Git Flow, applying patterns and also Database (CRUD).
 
 ---
 
@@ -24,8 +24,8 @@ Diseñar software mediante las estructuras avanzadas, las cuales se establecen s
 integrando tus desarrollos en plataformas colaborativas.
 
 + **[1. Patrones 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/blob/master/src/main/java/SPRINT%203/Tasca%20S3%2001%20Patterns%201/README.es.md)** Aplicar los patrones de diseño: Singelton, Abstract Factory y Command.
-+ **[2. Patrones 2]()** Aplicar los patrones de diseño: Builder, Observer y Callback.
-+ **[3. Developers Team]()** Proyecto en grupo de 3 personas, aplicando Git Flow, patrones de diseño y Base de datos (CRUD).
++ **[2. Patrones 2](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/blob/master/src/main/java/SPRINT%203/Tasca%20S3%2002%20Patterns%202/README.es.md)** Aplicar los patrones de diseño: Builder, Observer y Callback.
++ **[3. Developers Team](https://github.com/ariamdev/ITACADEMY_SCAPE_ROOM)** Proyecto en grupo de 3 personas, aplicando Git Flow, patrones de diseño y Base de datos (CRUD).
 
 ---
 
@@ -36,6 +36,6 @@ Dissenyar software mitjançant les estructures avançades, les quals s'estableix
 integrant els teus desenvolupaments en plataformes col·laboratives
 
 + **[1. Patrons 1](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/blob/master/src/main/java/SPRINT%203/Tasca%20S3%2001%20Patterns%201/README.cat.md)** Aplicar els patrons de diseny: Singelton, Abstract Factory y Command.
-+ **[2. Patrons 2]()** Aplicar els patrons de diseny: Builder, Observer y Callback.
-+ **[3. Developers Team]()** Projecte en grupo de 3 persones, aplicant Git Flow, patrons de diseny i Base de dades (CRUD).
++ **[2. Patrons 2](https://github.com/ariamdev/IT-ACADEMY-SPRINT-3/blob/master/src/main/java/SPRINT%203/Tasca%20S3%2002%20Patterns%202/README.cat.md)** Aplicar els patrons de diseny: Builder, Observer y Callback.
++ **[3. Developers Team](https://github.com/ariamdev/ITACADEMY_SCAPE_ROOM)** Projecte en grupo de 3 persones, aplicant Git Flow, patrons de diseny i Base de dades (CRUD).
 
